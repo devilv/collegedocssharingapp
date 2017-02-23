@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firebase">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/scrollres"
+        android:layout_height="675dp">
+
+        <ImageButton
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/syllabus"
+            android:layout_marginTop="32dp"
+            android:background="@color/firebase"
+            android:id="@+id/imageButton62"
+            android:layout_width="132dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/notice"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageButton63"
+            android:layout_below="@+id/imageButton62"
+            android:background="@color/firebase"
+            android:layout_alignLeft="@+id/imageButton62"
+            android:layout_alignStart="@+id/imageButton62" />
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/assignment"
+            android:layout_marginTop="24dp"
+            android:id="@+id/imageButton64"
+            android:layout_below="@+id/imageButton63"
+            android:background="@drawable/btn"
+            android:layout_alignLeft="@+id/imageButton63"
+            android:layout_alignStart="@+id/imageButton63" />
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/notes"
+            android:layout_marginTop="29dp"
+            android:id="@+id/imageButton65"
+            android:background="@drawable/btn"
+            android:layout_below="@+id/imageButton64"
+            android:layout_alignLeft="@+id/imageButton64"
+            android:layout_alignStart="@+id/imageButton64" />
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firebase">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/scrollres"
+        android:layout_height="350dp">
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:background="@drawable/btn"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/thirdsem"
+            android:layout_marginTop="25dp"
+            android:id="@+id/imageButton38"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/fourthsem"
+            android:id="@+id/imageButton39"
+            android:background="@drawable/btn"
+            android:layout_below="@+id/imageButton38"
+            android:layout_alignLeft="@+id/imageButton38"
+            android:layout_alignStart="@+id/imageButton38"
+            android:layout_marginTop="23dp" />
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "182665439264",
+    "firebase_url": "https://collegedocssharingapp.firebaseio.com",
+    "project_id": "collegedocssharingapp",
+    "storage_bucket": "collegedocssharingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182665439264:android:77502ba02e28092a",
+        "android_client_info": {
+          "package_name": "com.devil.collegedocssharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182665439264-kbcmmdrh939rfr0dfiqian1d5s0m9br9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRb_7aS4yUkyMoT9qM0mLXML-FCRScoBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
